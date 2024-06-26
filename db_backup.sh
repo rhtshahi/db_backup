@@ -19,7 +19,7 @@ cd $SERVER_BACKUP_PATH
 lcd $LOCAL_BACKUP_PATH
 
 # Copy the file to your local device
-get mysql_backup_$DATE*.zip
+get *$DATE*.zip
 
 # Exit SFTP session
 exit
